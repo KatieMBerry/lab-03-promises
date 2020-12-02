@@ -2,6 +2,10 @@ const fs = require('fs').promises;
 const { copyAFile } = require('./copyFile');
 
 describe('copyAFile fn', () => {
+    afterEach(() => {
+        return fs.rm('./newFile-copy.txt');
+    });
+
     it('reads a file and writes a copy file', async () => {
 
         return copyAFile('./newFile.txt', './newFile-copy.txt')

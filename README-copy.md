@@ -16,7 +16,6 @@ use fsPromises.readFile to read a file
 then use fsPromises.writeFile to write the read data
 then console.log "DONE!"
 
-## Lab
 # Copy a file
 create and export a copy(src, dst) function
 require const fsPromises = require('fs').promises;

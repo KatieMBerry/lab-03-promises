@@ -8,6 +8,5 @@ describe('transform fn', () => {
             .then(
                 transformedFile => expect(transformedFile)
                     .toEqual('SIHT TUOBA ERUS TON MA '))
-    }
-    )
+    })
 })

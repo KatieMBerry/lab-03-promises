@@ -18,7 +18,7 @@ async function getCharacter(id) {
     }
 }
 
-const getManyCharacters = (ids) => {
+async function getManyCharacters(ids) {
     return Promise.all(ids.map(id => getCharacter(id)));
 }
 

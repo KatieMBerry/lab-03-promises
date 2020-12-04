@@ -18,8 +18,8 @@ async function getCharacter(id) {
     }
 }
 
-async function getManyCharacters(ids) {
-
+const getManyCharacters = (ids) => {
+    return Promise.all(ids.map(id => getCharacter(id)));
 }
 
 module.exports = {

@@ -15,7 +15,7 @@ describe('copyAFile fn', () => {
             .then(
                 newFile => {
                     expect(newFile)
-                        .toEqual('I\'m not sure about this')
+                        .toEqual('I am not sure about this')
                 }
             )
     })

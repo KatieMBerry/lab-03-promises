@@ -18,4 +18,11 @@ async function getCharacter(id) {
     }
 }
 
-module.exports = { getCharacter };
+async function getManyCharacters(ids) {
+
+}
+
+module.exports = {
+    getCharacter,
+    getManyCharacters
+};

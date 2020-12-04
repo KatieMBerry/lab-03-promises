@@ -1,4 +1,4 @@
-const { getCharacter } = require('./rickAndMortyApi');
+const { getCharacter, getManyCharacters } = require('./rickAndMortyApi');
 // const fetch = require('node-fetch');
 
 describe('getCharater fn', () => {
@@ -16,15 +16,10 @@ describe('getCharater fn', () => {
     })
 })
 
+describe('getManyCharacters fn', () => {
+    it('that takes an array of ids and returns a promise that resolves with an array of characters', async () => {
 
 
+    })
+})
 
-
-
-
-
-
-
-/*getCharacter that takes an id and returns a promise that resolves to a character
-return only the characters name, status, and species
-WRITE YOUR TESTS FIRST*/
